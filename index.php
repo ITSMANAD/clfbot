@@ -1,4 +1,5 @@
 <?php
+include 'Telegram.php';
 $telegram = new Telegram('6463000943:AAHvswPJRHUhwkB2dnoLapokgc5LucCamnQ');
 
 $chat_id = $telegram->ChatID();
