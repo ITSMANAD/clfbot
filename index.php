@@ -14,7 +14,6 @@ $user_id = $telegram->UserID(); // آیدی یکتای کاربر
 $chat_id = $telegram->ChatID(); // آیدی مکانی که چت صورت میگیرد، مثل خود بات یا آیدی گروه
 
 
-if($text == "/start"){
     $content = array('chat_id' => $chat_id, 'text' => "سلام خره");
     $telegram->sendMessage($content);
-}
+
